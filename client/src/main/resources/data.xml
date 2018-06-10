@@ -1,0 +1,37 @@
+<questions xmlns="urn:questionSchema"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="urn:questionSchema file:///D:\projects\question-game\db\src\main\resources\pl\db\schema.xsd">
+
+    <question>
+        <content></content>
+        <answer1></answer1>
+        <answer2></answer2>
+        <answer3></answer3>
+        <answer4></answer4>
+        <correctAnswer></correctAnswer>
+    </question>
+    <question>
+        <content>2+5</content>
+        <answer1>4</answer1>
+        <answer2>1</answer2>
+        <answer3>2</answer3>
+        <answer4>7</answer4>
+        <correctAnswer>4</correctAnswer>
+    </question>
+    <question>
+        <content>2+5</content>
+        <answer1>4</answer1>
+        <answer2>1</answer2>
+        <answer3>2</answer3>
+        <answer4>7</answer4>
+        <correctAnswer>4</correctAnswer>
+    </question>
+    <question>
+        <content>2+5</content>
+        <answer1>4</answer1>
+        <answer2>1</answer2>
+        <answer3>2</answer3>
+        <answer4>7</answer4>
+        <correctAnswer>4</correctAnswer>
+    </question>
+</questions>

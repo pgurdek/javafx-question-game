@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.controllers.QuestionControllerSummary">
+   <children>
+      <ScrollPane fitToHeight="true" fitToWidth="true" pannable="true" vbarPolicy="ALWAYS" VBox.vgrow="ALWAYS">
+        <content>
+            <VBox alignment="TOP_CENTER" spacing="15.0">
+               <children>
+                  <Label alignment="TOP_LEFT" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="Smart-ablative nano-saturation point numinous-ware beef noodles tank-traps cardboard rebar 8-bit advert rain. Post-warehouse DIY savant range-rover vehicle ablative wonton soup. Papier-mache camera nodal point 3D-printed pen rain computer RAF Chiba systemic Legba uplink concrete woman long-chain hydrocarbons. DIY refrigerator car futurity sign bicycle pen sub-orbital corporation. " wrapText="true" VBox.vgrow="ALWAYS" />
+                  <VBox minHeight="-Infinity" prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label alignment="TOP_LEFT" minHeight="-Infinity" text="Dead table Chiba warehouse savant alcohol modem. Fluidity tattoo pen rain hacker hotdog papier-mache sign tiger-team footage nodal point DIY vehicle tube smart. Grenade meta-cyber-BASE jump table tank-traps digital-space 3D-printed garage numinous systema. " textOverrun="CLIP" wrapText="true" VBox.vgrow="ALWAYS">
+                           <padding>
+                              <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="34.0" />
+                           </VBox.margin>
+                        </Label>
+                        <GridPane hgap="5.0" VBox.vgrow="ALWAYS">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="200.0" />
+                            <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="200.0" />
+                            <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="200.0" />
+                            <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="200.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="ALWAYS" />
+                          </rowConstraints>
+                           <children>
+                              <Label alignment="TOP_LEFT" minHeight="-Infinity" text="asd" wrapText="true" GridPane.columnIndex="0" GridPane.valignment="TOP" />
+                              <Label alignment="TOP_LEFT" minHeight="-Infinity" text="asdasd" wrapText="true" GridPane.columnIndex="1" GridPane.valignment="TOP" VBox.vgrow="ALWAYS" />
+                              <Label alignment="TOP_LEFT" minHeight="-Infinity" text="asd" wrapText="true" GridPane.columnIndex="2" GridPane.valignment="TOP" />
+                              <Label alignment="TOP_LEFT" minHeight="-Infinity" text="Dead table Chiba warehouse savant alcohol modem. Fluidity tattoo pen rain hacker hotdog papier-mache sign tiger-team footage nodal point DIY vehicle tube smart. Grenade meta-cyber-BASE jump table tank-traps digital-space 3D-printed garage numinous systema." wrapText="true" GridPane.columnIndex="3" GridPane.valignment="TOP" />
+                           </children>
+                           <padding>
+                              <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                           </padding>
+                        </GridPane>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="30.0" />
+                     </VBox.margin>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </VBox>
+        </content>
+      </ScrollPane>
+   </children>
+</VBox>

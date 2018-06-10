@@ -1,0 +1,42 @@
+.dialogContainer{
+    -fx-background-color: rgba(200, 206, 203,0.8);
+    -fx-padding: 15px;
+}
+.dialogContainer .header-panel{
+    -fx-text-alignment: center;
+}
+.dialogContainer .header-panel .label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+.dialogContainer  .content {
+    -fx-font-size: 16px;
+    -fx-font-weight: 400;
+    -fx-text-fill: black;
+    -fx-text-alignment: left;
+    -fx-wrap-text: true;
+}
+
+.button{
+    -fx-padding: 10px;
+    -fx-border-radius: 15px;
+    -fx-background-color: #008CBA;
+    -fx-text-fill: white;
+    -fx-border-color: #008CBA;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+.correct-answer{
+    -fx-text-fill: white;
+    -fx-background-color: #4CAF50;
+    -fx-font-weight: bold;
+    -fx-border-color: #4CAF50;
+}
+.bad-answer{
+    -fx-text-fill: white;
+    -fx-background-color: #f44336;
+    -fx-font-weight: bold;
+    -fx-border-color: #f44336;
+}
+

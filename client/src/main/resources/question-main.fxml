@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.Label?>
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.controllers.QuestionControllerMain">
+   <children>
+      <ImageView fitHeight="613.0" fitWidth="819.0" opacity="0.41" pickOnBounds="true">
+              <image>
+                 <Image url="@wallpaper1.jpg" />
+              </image>
+      </ImageView>
+
+
+      <!--Buttons-->
+      <Button fx:id="browseFile" layoutX="121.0" layoutY="277.0" mnemonicParsing="false" onAction="#searchFile" style="-fx-background-color: #313335;" text="Upload Questions" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Lato Italic" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="startGame" layoutX="461.0" layoutY="277.0" mnemonicParsing="false" style="-fx-background-color: #313335;" onAction="#startGame" text="Start Game" textFill="WHITE">
+         <font>
+            <Font name="Lato Italic" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="wk" layoutX="247.0" layoutY="139.0" text="Label" />
+      <!---->
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="urn:Test.Namespace"
+            xmlns="urn:Test.Namespace"
+            elementFormDefault="qualified"
+>
+    <xsd:element name="questions">
+        <xsd:complexType>
+            <xsd:sequence minOccurs="2" maxOccurs="10">
+                <xsd:element name="question" type="question"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="question">
+        <xsd:sequence>
+            <xsd:element name="content" type="xsd:string"/>
+            <xsd:element name="answer1" type="xsd:string"/>
+            <xsd:element name="answer2" type="xsd:string"/>
+            <xsd:element name="answer3" type="xsd:string"/>
+            <xsd:element name="answer4" type="xsd:string"/>
+            <xsd:element name="correctAnswer" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>
